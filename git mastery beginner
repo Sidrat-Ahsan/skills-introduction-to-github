@@ -1,0 +1,34 @@
+--------------lvl1-------------
+git init - (creates repo)
+t creates a Local Repository, but it does not create a Remote Repository.
+
+In Git terminology, a "repository" (repo for short) simply means a folder where Git is actively tracking your files, history, and changes.
+
+Here is the difference:
+
+What git init does (Local): It creates a private repository right on your hard drive. It exists entirely on your computer, and only you can see it.
+
+What GitHub does (Remote): When you click "New Repository" on GitHub's website, you are creating a remote repository 
+on the internet that can be shared and accessed from anywhere.
+
+So, when you type git init in your VS Code terminal, you have successfully created a repo! It is just an isolated one that isn't connected to the cloud yet.
+ 
+-----------lvl3--------------
+git clone repo link - (clones the repo in local computer)
+eg git clone https://github.com/vchandu111/python-for-genai
+ then use cd to explore folder .
+eg cd README.md
+
+---------lvl4---------------
+"Hey!" calls Sarah, your colleague, "I see you've already started with Git. Next you should learn how to stage changes."
+
+She explains: "When you modify files, you need to explicitly tell Git which changes should be included in the next commit. 
+This is called 'staging' and works with git add."
+Real-World Context
+The staging concept is a powerful feature of Git. It allows you to commit only selected changes while others can remain in progress.
+
+git add . ( add all files at once)
+
+git add script.py ( add single file)
+
+git add script.py index.html style.css ( add multiple files)
